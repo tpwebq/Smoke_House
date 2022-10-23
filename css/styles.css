@@ -291,9 +291,45 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
   background-attachment: scroll;
   background-image: url(../img/comingsoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,6 +345,33 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.offer-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/offers/offers-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.offer-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/offers/offers-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
@@ -317,37 +380,84 @@ body, html {
   background-size: cover;
 }
 
-/* line 4, ../sass/partials/_modules.scss */
-.privacy-s1 {
+@media all and (max-width: 991px), all and (orientation: portrait) {
+  /* line 31, ../sass/partials/_mixins.scss */
+  .index-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/index/index-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/* line 6, ../sass/partials/_modules.scss */
+.about-s1 {
   background-position-x: right !important;
 }
-
 /* line 9, ../sass/partials/_modules.scss */
+.about-s2 {
+  background-position-x: left !important;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.bg-orange {
+  background-color: #ff7437;
+}
+
+/* line 19, ../sass/partials/_modules.scss */
+.border-orange {
+  border-color: #ff7437 !important;
+}
+
+/* line 24, ../sass/partials/_modules.scss */
+.contact-s1 {
+  background-position-y: bottom !important;
+}
+/* line 27, ../sass/partials/_modules.scss */
+.contact-s2 {
+  background-position-y: top !important;
+}
+
+/* line 32, ../sass/partials/_modules.scss */
 .navbar-logo {
   height: 40px;
 }
 
-/* line 14, ../sass/partials/_modules.scss */
+/* line 37, ../sass/partials/_modules.scss */
+.offer-s1 {
+  background-position-y: bottom !important;
+}
+
+/* line 42, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-position-x: right !important;
+}
+
+/* line 47, ../sass/partials/_modules.scss */
+.text-orange {
+  color: #ff7437;
+}
+/* line 50, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
 }
 
-/* line 18, ../sass/partials/_modules.scss */
+/* line 54, ../sass/partials/_modules.scss */
 header {
   z-index: 10;
 }
 
-/* line 21, ../sass/partials/_modules.scss */
+/* line 57, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 27, ../sass/partials/_modules.scss */
+  /* line 63, ../sass/partials/_modules.scss */
   .navbar-nav {
     backdrop-filter: blur(5px);
-    background-color: #fff;
-    border: 1px solid #999;
+    background-color: #ff7437;
+    border: 1px solid #9d3000;
     opacity: 0.8;
     padding: 10px;
   }
